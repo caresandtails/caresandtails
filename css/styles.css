@@ -5,17 +5,19 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	font-family: "Roboto", sans-serif;
+  	font-weight: 100;
+  	font-style: normal;
+	background-color: #41689f;
 }
 
-/* Changing the background colour for the header */
+/* Header color */
 
 header {
 	background-color: #000060;
 }
 
-/* Changing the background color for the navigation bar */
+/* Navigation bar color */
 
 .navbar {
 	background-color: #FFF9EB;
@@ -41,4 +43,25 @@ footer a:hover {
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
+}
+
+.bodyfont {
+	font-family: "Roboto", sans-serif;
+ 	font-weight: 100;
+ 	font-style: normal;
+}
+
+.text{
+	color:#fff9eb;
+	font-size: 150px;
+	position: absolute;
+	top: 100%;
+	left: 60%;
+	transform: translate(-76%,-260%);
+}
+
+.titlesfont {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
