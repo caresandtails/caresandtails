@@ -9,6 +9,15 @@
 
     <!-- Own Styles -->
     <link rel="stylesheet" href="css/styles.css">
+	  
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	  
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
@@ -26,7 +35,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="images/2gether-transparent.png" width="40" alt="Breda University of Applied Sciences">
+        <img src="images/caresandtailslogo.png" width="100" alt="Cares and tails logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,12 +46,11 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="example.html">Example</a>
+              <a class="nav-link active" aria-current="page" href="example.html">About us&nbsp;</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                UX Patterns
-              </a>
+              Service&nbsp; </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
                 <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
@@ -52,7 +60,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
+              <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">Forum</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="corporate.html">Corporate</a>
@@ -72,26 +80,48 @@
     <div class="container-fluid">
       <div class="row bg-success bg-opacity-25">
 
-    <!-- Start of hero section -->
-        <header class="col-12 col-lg-8 col-xl-6 p-0">
-          <div class="d-flex w-100 position-relative">
-            <video autoplay loop muted class="w-100 m-0">
-                <source src="https://www.buas.nl/sites/default/files/2023-09/corporate_video.mp4" type="video/mp4">
-            </video>
-            <div class="w-100 position-absolute pt-2 pt-md-4 pt-lg-5 text-center">
-              <div class="row">
-                <div class="col-md-8 col-lg-6 mx-auto">
-                  <h1 class="fw-bold white-shadow">All 2gether Now!</h1>
-                  <h2 class="fw-bold white-shadow">The online platform for togetherness!</h2>
-                  <p class="mt-2">
-                    <a href="#" class="btn btn-lg btn-primary m-1">Join now!</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-    <!-- End of hero section -->
+    <!-- Start of team section -->
+  <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/adrianaphoto.jpeg" alt="Adriana Urrutia" style="width:100%">
+      <div class="container">
+        <h2>Adriana Urrutia&nbsp;</h2>
+        <p class="title">Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>222079@buas.nl</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/barbaraphoto.png" alt="Bárbara" style="width:100%">
+      <div class="container">
+        <h2>Bárbara Costa</h2>
+        <p class="title">Founder&nbsp;</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/justinephoto.png" alt="Justine" style="width:100%">
+      <div class="container">
+        <h2>Justine Serrano</h2>
+        <p class="title">Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>220599@buas.nl</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- End of team section -->
       
     <!-- The Who we are section -->
         <section class="col-12 col-lg-4 offset-xl-1 text-center">
@@ -150,47 +180,27 @@
       </div>
     </div>
 
-    <!-- A footer with socials -->
-    <footer class="shadow-lg mt-auto py-4 bg-body">
-      <div class="container d-flex justify-content-between align-items-center">
-        <p>
-          © 2020&ndash;2024 &mdash; Breda University of Applied Sciences
+    <!-- Footer start -->
+        <footer class="footercolor mt-auto py-4 bg-body">
+      <div class="container d-flex justify-content-between align-items-center footercolor">
+        <p class="bodyfont">
+          © 2024 &mdash; Cares&amp;Tails
         </p>
         <ul class="list-unstyled d-flex align-items-center opacity-75">
           <li>
-            <a href="https://www.facebook.com/bredauniversityas" target="_blank">
-              <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
+            <a href="https://www.facebook.com/profile.php?id=61557037078583" target="_blank">
+              <img class="m-2" src="images/facebooklogo.svg" alt="Follow us on" width="32">
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/school/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/linkedin.svg" alt="Follow us on LinkedIn" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/bredauas" target="_blank">
-              <img class="m-2" src="images/twitter.svg" alt="Follow us on Twitter" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/BredaUniversityofAppliedSciences" target="_blank">
-              <img class="m-2" src="images/youtube.svg" alt="Follow us on YouTube" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.tiktok.com/@bredauniversityas" target="_blank">
-              <img class="m-2" src="images/tiktok.svg" alt="Follow us on TikTok" width="26">
+            <a href="https://www.instagram.com/caresandtails/" target="_blank">
+              <img class="m-2" src="images/instagramlogo.svg" alt="Instagram logo" width="37">
             </a>
           </li>
         </ul>
       </div>
     </footer>
-    <!-- End of the footer -->
+    <!-- Footer end -->
 
   </body>
 </html>
