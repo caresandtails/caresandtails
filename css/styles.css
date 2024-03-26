@@ -14,7 +14,7 @@ body {
 /* Header color */
 
 header {
-	background-color: #000060;
+	background-color: #41689F;
 }
 
 /* Navigation bar color */
@@ -178,4 +178,16 @@ input[type="submit"] {
 input[type="submit"]:hover {
      background-color: #5fb0b7;
   }
+
+.comingsoon {
+	font-size: 100px;
+	color: #BF9ACA;
+}
+
+.countdown-timer {
+    font-size: 40px; 
+	color: #BF9ACA;
+}
+
+
 

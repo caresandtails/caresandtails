@@ -9,11 +9,21 @@
 
     <!-- Own Styles -->
     <link rel="stylesheet" href="css/styles.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	  
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+	  
 
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-    <title>PRJ4 Base Group Template &mdash; Hero Section UX</title>
+    <title>Cares &amp; Tails &mdash; Forum</title> 
 
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
@@ -53,70 +63,83 @@
       </div>
     </nav>
     <!-- End of navigation bar -->
-
-    <section class="container my-4">
-      <div class="border-start border-primary border-5 p-2 bg-primary bg-opacity-10 rounded">
-        <p>You can use this hero section to focus the reader's attention on a few words and calls to action.</p>
-        <p>This is inspired by <a href="https://getbootstrap.com/docs/5.1/examples/album/" target="_blank">Bootstrap's Album example</a>.</p>
-      </div>
-    </section>
-
+	  
     <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
     <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
       <div class="row">
         <div class="col-md-8 col-lg-6 mx-auto py-5">
-          <h1 class="display-3">Hero section</h1>
-          <p class="lead">A short and snappy tagline that makes your reader want to read things from your website.</p>
-          <p class="mt-5">
-            <a href="#" class="btn btn-lg btn-warning m-1 d-block d-sm-inline">Call to action</a>
-            <a href="#" class="btn btn-lg btn-danger m-1 d-block d-sm-inline">Another call to action</a>
+          <h1 class="display-3 titlesfont comingsoon">
+			  <strong> COMING SOON! </strong> 
+			</h1>
+			
+          <p class="lead bodyfont"><br>
           </p>
+          <p class="lead bodyfont"> The ultimate place for dog lovers to come together, ask questions, and connect with fellow dog enthusiasts.&nbsp; </p>
+<p class="lead bodyfont">Ask, share, &amp; connect. Stay tuned! &nbsp;
+			<font size="20" color="#fff9eb">
+	      </font>
+	    </p>
+		
+		<!-- Display the countdown timer in an element -->
+			
+	<p id="demo" class="countdown-timer"></p>
+
+	<script>
+		// Set the date we're counting down to
+		var countDownDate = new Date("July 12, 2024 12:22:00").getTime();
+
+		// Update the count down every 1 second
+		var x = setInterval(function() {
+
+  		// Get today's date and time
+  		var now = new Date().getTime();
+			
+  	// Find the distance between now and the count down date
+  	var distance = countDownDate - now;
+
+			// Time calculations for days, hours, minutes and seconds
+			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+			// Display the result in the element with id="demo"
+			document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  	+ minutes + "m " + seconds + "s ";
+
+			// If the count down is finished, write some text
+			if (distance < 0) {
+				clearInterval(x);
+				document.getElementById("demo").innerHTML = "EXPIRED";
+			}
+			}, 1000);
+			</script>
         </div>
       </div>
     </header>
     <!-- End of hero section -->
 
-    <!-- A footer with socials -->
-    <footer class="shadow-lg mt-auto py-4 bg-body">
-      <div class="container d-flex justify-content-between align-items-center">
-        <p>
-          © 2020&ndash;2024 &mdash; Breda University of Applied Sciences
+    <!-- Footer start -->
+  <footer class="footercolor mt-auto py-4 bg-body">
+      <div class="container-fluid d-flex justify-content-between align-items-center footercolor">
+        <p class="bodyfont">
+          © 2024 &mdash; Cares&amp;Tails
         </p>
         <ul class="list-unstyled d-flex align-items-center opacity-75">
           <li>
-            <a href="https://www.facebook.com/bredauniversityas" target="_blank">
-              <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
+            <a href="https://www.facebook.com/profile.php?id=61557037078583" target="_blank">
+              <img class="m-2" src="images/facebooklogo.svg" alt="Follow us on" width="32">
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/school/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/linkedin.svg" alt="Follow us on LinkedIn" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/bredauas" target="_blank">
-              <img class="m-2" src="images/twitter.svg" alt="Follow us on Twitter" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/BredaUniversityofAppliedSciences" target="_blank">
-              <img class="m-2" src="images/youtube.svg" alt="Follow us on YouTube" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.tiktok.com/@bredauniversityas" target="_blank">
-              <img class="m-2" src="images/tiktok.svg" alt="Follow us on TikTok" width="26">
+            <a href="https://www.instagram.com/caresandtails/" target="_blank">
+              <img class="m-2" src="images/instagramlogo.svg" alt="Instagram logo" width="37">
             </a>
           </li>
         </ul>
       </div>
     </footer>
-    <!-- End of the footer -->
+    <!-- Footer end -->
 
   </body>
 </html>
