@@ -193,6 +193,8 @@ input[type="submit"]:hover {
 
 .booking-container {
     background-color: #FFF9EB;
+	font-size: 20px;
+	color: #41689F;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -240,4 +242,31 @@ button {
 }
 button:hover {
     background-color: #BF9ACA;
+}
+
+.card {
+  width: 100%; /* Set the width to 100% to make the cards wider */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bestsitters {
+	text-size: 25px;
+	color: #FFF9EB;
+}
+
+.fontsitters {
+	color: #41689F;
 }
