@@ -139,45 +139,61 @@ header {
 	background-color: #ff8c42;
 }
 
- .container {
-    width: 60%; 
-    margin: 20px auto; 
-    text-align: left; 
+.valuesfont {
+	text-size: 100px;
+	color: #fff9eb;
+}
+
+
+/* contact us section */
+
+   .contact-section {
+        width: 100%;
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-        
-.form-group {
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-        }
+    .contact-section h2 {
+        margin-top: 0;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+    }
+    .contact-form textarea {
+        height: 100px; /* Adjust as needed */
+    }
+    .contact-buttons button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #41689f;
+        color: #fff9eb;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .contact-buttons button:last-child {
+        margin-bottom: 0;
+    }
 
- label {
-    width: 30%;
-    margin-right: 10px;
-    text-align: right;
- }
+.contactustext {
+	color: #41689F;
+}
 
-input[type="text"],
-    textarea {
-      width: 70%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 3px;
-      box-sizing: border-box;
- }
+/* end of section */
 
-input[type="submit"] {
-      background-color: #5fb0b7;
-      color: #fff9eb;
-      border: none;
-      padding: 8px 16px;
-      border-radius: 3px;
-      cursor: pointer;
- }
-
-input[type="submit"]:hover {
-     background-color: #5fb0b7;
-  }
 
 .comingsoon {
 	font-size: 100px;
@@ -245,7 +261,7 @@ button:hover {
 }
 
 .card {
-  width: 100%; /* Set the width to 100% to make the cards wider */
+  width: 100%; 
 }
 
 .card img {
@@ -270,3 +286,15 @@ button:hover {
 .fontsitters {
 	color: #41689F;
 }
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+}
+
+/* contact us */
+
+
+
