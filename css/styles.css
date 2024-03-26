@@ -189,5 +189,55 @@ input[type="submit"]:hover {
 	color: #BF9ACA;
 }
 
+/* Booking container styles */
 
-
+.booking-container {
+    background-color: #FFF9EB;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%; 
+    margin: 20px auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+.booking-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%; 
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+}
+label {
+    margin-bottom: 5px;
+    width: 150px; 
+    flex-shrink: 0; 
+}
+input[type="area"],
+input[type="dogs"],
+input[type="date"] {
+    flex: 1; 
+    margin-right: 10px; 
+    width: calc(50% - 170px);
+    margin-bottom: 10px; 
+}
+.button-container {
+    width: 100%; 
+}
+button {
+    background-color: #41689F;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 5px;
+    width: 100%; 
+    margin-top: 10px; 
+}
+button:hover {
+    background-color: #BF9ACA;
+}
