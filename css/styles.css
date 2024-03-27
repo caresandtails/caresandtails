@@ -118,6 +118,8 @@ header {
   background-color: #41689f;
 }
 
+/* colors start */
+
 .bluecolor{
 	background-color: #41689F;
 }
@@ -138,6 +140,20 @@ header {
 	background-color: #ff8c42;
 }
 
+/* colors end */
+
+/* our story text */
+
+.ourstorytext {
+	text-align: center;
+	font-size: 75px;
+	color: #FFF9EB;
+}
+
+/* our story text */
+
+/* meet the team */
+
 .meetheteam {
 	font-size: 60px;
 	color: #fff9eb;
@@ -146,11 +162,23 @@ header {
   	max-width: 600px; 
 }
 
+/* meet the team end */
+
+/* values */
+
 .valuesfont {
 	font-size: 60px;
+	color: #41689f;
+}
+	
+.valuesborders {
+    border-radius: 35px;
 	color: #fff9eb;
 }
 
+/* values end */
+
+/* about us and who we are */
 .aboutusheader h2 {
 	font-size: 29px;	
 }
@@ -174,6 +202,7 @@ header {
 	font-size: 19px;
 }
 
+/* about us and who we are end */
 
 /* contact us section */
 
