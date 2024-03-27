@@ -17,10 +17,18 @@ header {
 	background-color: #41689F;
 }
 
-/* Navigation bar color */
+/* Navigation color */
 
 .navbar {
 	background-color: #FFF9EB;
+}
+
+ .navbar-nav .nav-link {
+      color: #41689F; 
+    }
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.active:focus, .navbar-nav .nav-link.active:hover {
+      color: #BF9ACA; 
 }
 
 /* Footer color */
@@ -32,7 +40,7 @@ header {
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #800000;
+	color: #FFF9EB;
 	font-weight: bold;
 }
 
@@ -141,6 +149,10 @@ header {
 
 .orangecolor {
 	background-color: #ff8c42;
+}
+
+.bluefont {
+	color: #41689F;
 }
 
 /* colors end */
