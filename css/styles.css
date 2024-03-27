@@ -148,10 +148,10 @@ header {
 /* contact us section */
 
     .contact-section {
-        width: 80%; /* Adjust the width as needed */
-        max-width: 800px; /* Adjust the max-width as needed */
+        width: 80%; 
+        max-width: 800px; 
         margin: 50px auto;
-        padding: 20px 40px; /* Adjust the padding as needed */
+        padding: 20px 40px; 
         border: 1px solid #ccc;
         border-radius: 10px;
         background-color: #f9f9f9;
