@@ -116,7 +116,7 @@ header {
 }
 
 .button:hover {
-  background-color: #555;
+  background-color: #41689f;
 }
 
 .bluecolor{
@@ -140,7 +140,7 @@ header {
 }
 
 .valuesfont {
-	text-size: 100px;
+	font-size: 60px;
 	color: #fff9eb;
 }
 
@@ -279,7 +279,7 @@ button:hover {
 }
 
 .bestsitters {
-	text-size: 25px;
+	font-size: 50px;
 	color: #FFF9EB;
 }
 
