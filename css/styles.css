@@ -36,14 +36,6 @@ header {
 	font-weight: bold;
 }
 
-/* Hero Section shadow */
-
-.white-shadow {
-	text-shadow: -.01em -.01em .01em white,
-		.02em .02em .02em white,
-		0 0 .2em white,
-		0 0 .5em white;
-}
 
 .bodyfont {
 	font-family: "Roboto", sans-serif;
@@ -87,7 +79,7 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Some left and right padding inside the container */
+/* Some left and right padding inside the container about us title,vision,*/
 .container {
   padding: 0 16px;
 }
@@ -144,10 +136,33 @@ header {
 	color: #fff9eb;
 }
 
+.aboutusheader h2 {
+	font-size: 29px;	
+}
+
+.aboutustext {
+	text-align: justify;
+  	text-justify: inter-word;
+	color: #41689F;
+	font-size: 16px;
+}
+
+.whowearetext {
+	color: #fff9eb;
+	font-size: 50px;
+}
+
+.whowearebody {
+	text-align: justify;
+  	text-justify: inter-word;
+	color: #fff9eb;
+	font-size: 19px;
+}
+
 
 /* contact us section */
 
-    .contact-section {
+.contact-section {
         width: 80%; 
         max-width: 800px; 
         margin: 50px auto;
@@ -157,11 +172,13 @@ header {
         background-color: #f9f9f9;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    .contact-section h2 {
+
+.contact-section h2 {
         margin-top: 0;
     }
-    .contact-form input,
-    .contact-form textarea {
+
+.contact-form input,
+.contact-form textarea {
         width: 100%;
         padding: 10px;
         margin-bottom: 10px;
@@ -169,10 +186,12 @@ header {
         border-radius: 5px;
         box-sizing: border-box; 
     }
-    .contact-form textarea {
+
+.contact-form textarea {
         height: 100px; 
     }
-    .contact-buttons button {
+
+.contact-buttons button {
         display: block;
         width: 100%;
         padding: 10px;
@@ -184,12 +203,13 @@ header {
         font-size: 16px;
         cursor: pointer;
     }
-    .contact-buttons button:last-child {
+
+.contact-buttons button:last-child {
         margin-bottom: 0;
     }
 
 .contactustext {
-	color: #41689F
+	color: #41689F;
 }
 
 /* end of section */
@@ -294,7 +314,7 @@ button:hover {
   height: 100%; 
 }
 
-/* contact us */
+/* booking end */
 
 
 
