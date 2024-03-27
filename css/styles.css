@@ -147,11 +147,11 @@ header {
 
 /* contact us section */
 
-   .contact-section {
-        width: 100%;
-        max-width: 600px;
+    .contact-section {
+        width: 80%; /* Adjust the width as needed */
+        max-width: 800px; /* Adjust the max-width as needed */
         margin: 50px auto;
-        padding: 20px;
+        padding: 20px 40px; /* Adjust the padding as needed */
         border: 1px solid #ccc;
         border-radius: 10px;
         background-color: #f9f9f9;
@@ -167,10 +167,10 @@ header {
         margin-bottom: 10px;
         border: 1px solid #ccc;
         border-radius: 5px;
-        box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+        box-sizing: border-box; 
     }
     .contact-form textarea {
-        height: 100px; /* Adjust as needed */
+        height: 100px; 
     }
     .contact-buttons button {
         display: block;
@@ -180,7 +180,7 @@ header {
         border: none;
         border-radius: 5px;
         background-color: #41689f;
-        color: #fff9eb;
+        color: #FFF9EB;
         font-size: 16px;
         cursor: pointer;
     }
@@ -189,7 +189,7 @@ header {
     }
 
 .contactustext {
-	color: #41689F;
+	color: #41689F
 }
 
 /* end of section */
