@@ -9,19 +9,19 @@ body {
   	font-weight: 100;
   	font-style: normal;
 	background-color: #41689f;
-}
+	}
 
 /* Header color */
 
 header {
 	background-color: #41689F;
-}
+	}
 
 /* Navigation color */
 
 .navbar {
 	background-color: #FFF9EB;
-}
+	}
 
  .navbar-nav .nav-link {
       color: #41689F; 
@@ -29,27 +29,27 @@ header {
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.active:focus, .navbar-nav .nav-link.active:hover {
       color: #BF9ACA; 
-}
+	}
 
 /* Footer color */
 
 .footercolor {
 	background-color: #FFF9EB;
-}
+	}
 
 /* Corporate navbar */
 
 #navbar-corporate a.active {
 	color: #FFF9EB;
 	font-weight: bold;
-}
+	}	
 
 
 .bodyfont {
 	font-family: "Roboto", sans-serif;
  	font-weight: 100;
  	font-style: normal;
-}
+	}
 
 .text{
 	color:#fff9eb;
@@ -58,14 +58,14 @@ header {
 	top: 100%;
 	left: 60%;
 	transform: translate(-76%,-260%);
-}
+	}
 
 .titlesfont {
   font-family: "Amatic SC", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #41689f;
-}
+	}
 
 /* meet the team start */
 
@@ -75,19 +75,19 @@ header {
 	text-align: center;
 	margin: auto; 
   	max-width: 600px; 
-}
+	}
 
 .aboutusheader h2 {
 	font-size: 29px;
 	color: #41689F;
-}
+	}	
 
 .aboutustext {
 	text-align: justify;
   	text-justify: inter-word;
 	color: #41689F;
 	font-size: 16px;
-}
+	}
 
 .team-container {
         display: flex;
@@ -134,27 +134,27 @@ header {
 
 .bluecolor{
 	background-color: #41689F;
-}
+	}
 
 .beigecolor {
 	background-color: #FFF9EB;
-}
+	}
 
 .purplecolor {
 	background-color: #BF9ACA;
-}
+	}
 
 .lightbluecolor {
 	background-color: #BFe6FF;
-}
+	}
 
 .orangecolor {
 	background-color: #ff8c42;
-}
+	}
 
 .bluefont {
 	color: #41689F;
-}
+	}
 
 /* colors end */
 
@@ -164,7 +164,7 @@ header {
 	text-align: center;
 	font-size: 75px;
 	color: #FFF9EB;
-}
+	}
 
 /* our story text */
 
@@ -173,14 +173,14 @@ header {
 .whowearetext {
 	color: #fff9eb;
 	font-size: 50px;
-}
+	}
 
 .whowearebody {
 	text-align: justify;
   	text-justify: inter-word;
 	color: #fff9eb;
 	font-size: 19px;
-}
+	}
 
 /* who we are end */
 
@@ -190,12 +190,12 @@ header {
 .valuesfont {
 	font-size: 60px;
 	color: #41689f;
-}
+	}
 	
 .valuesborders {
     border-radius: 35px;
 	color: #fff9eb;
-}
+	}
 
 /* values end */
 
@@ -250,7 +250,7 @@ header {
 
 .contactustext {
 	color: #41689F;
-}
+	}
 
 /* contact us end of section */
 
@@ -258,17 +258,17 @@ header {
 .comingsoon {
 	font-size: 100px;
 	color: #FFF9EB;
-}
+	}
 
 .askshareconnect {
 	font-size: 20px; 
 	color: #FFF9EB;
-}
+	}
 
 .countdown-timer {
     font-size: 40px; 
-	color: #BFE6FF;
-}
+	color: #FFF9EB;
+	}
 
 /* Booking container styles */
 
@@ -284,22 +284,26 @@ header {
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-between; 
-}
+	}
+
 .booking-container h2 {
     margin-bottom: 20px;
     text-align: center;
     width: 100%; 
-}
+	}
+
 form {
     display: flex;
     flex-wrap: wrap;
     width: 100%; 
-}
+	}
+
 label {
     margin-bottom: 5px;
     width: 150px; 
     flex-shrink: 0; 
-}
+	}
+
 input[type="area"],
 input[type="dogs"],
 input[type="date"] {
@@ -307,10 +311,12 @@ input[type="date"] {
     margin-right: 10px; 
     width: calc(50% - 170px);
     margin-bottom: 10px; 
-}
+	}
+
 .button-container {
     width: 100%; 
-}
+	}
+
 button {
     background-color: #41689F;
     border: none;
@@ -320,19 +326,20 @@ button {
     border-radius: 5px;
     width: 100%; 
     margin-top: 10px; 
-}
+	}
+
 button:hover {
     background-color: #BF9ACA;
-}
+	}	
 
 .card {
   width: 100%; 
-}
+	}
 
 .card img {
   width: 100%;
   height: auto;
-}
+	}
 
 .container {
   width: 100%;
@@ -341,25 +348,39 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
+	}
 
 .bestsitters {
 	font-size: 50px;
 	color: #FFF9EB;
-}
+	}	
 
 .fontsitters {
 	color: #41689F;
-}
+	}
 
 .center-content {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%; 
-}
+	}
 
 /* booking end */
+
+/* sitters card */
+
+.btn-primary.bluecolor:hover {
+    background-color: #BF9ACA; 
+	}	
+
+.btn-primary.bluecolor:hover,
+.btn-primary.bluecolor:hover:focus,
+.btn-primary.bluecolor:hover:active {
+    border-color: #BF9ACA;
+	}
+
+/* sitter card ends */
 
 
 
