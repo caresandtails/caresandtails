@@ -144,8 +144,8 @@ header {
 	background-color: #BF9ACA;
 }
 
-.turquoisecolor {
-	background-color: #5FB0B7;
+.lightbluecolor {
+	background-color: #BFe6FF;
 }
 
 .orangecolor {
@@ -257,12 +257,17 @@ header {
 
 .comingsoon {
 	font-size: 100px;
-	color: #BF9ACA;
+	color: #bfe6ff;
+}
+
+.askshareconnect {
+	font-size: 20px; 
+	color: #FFF9EB;
 }
 
 .countdown-timer {
     font-size: 40px; 
-	color: #BF9ACA;
+	color: #BFE6FF;
 }
 
 /* Booking container styles */
