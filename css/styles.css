@@ -83,10 +83,17 @@ header {
 
 .button-small {
     font-size: 20px; 
+	border-radius: 10px;
     padding: 8px 16px; 
-    width: 120px
+    width: 120px	
+}
+
+.button-small:hover {
+    background-color: #BF9ACA; /* Change background color on hover */
+    color: #FFF9EB; /* Change text color on hover */
 	
 }
+
 
 /* home page end */ 
 
