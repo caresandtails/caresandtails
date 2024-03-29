@@ -67,6 +67,51 @@ header {
   color: #41689f;
 	}
 
+/* home page start */ 
+
+.caresandtailstext {
+	font-size: 100px;
+	color: #FFF9eb;
+	text-align: center;
+}
+
+.homebody {
+	font-size: 20px;
+	color: #fff9eb;
+}
+
+
+.button-small {
+    font-size: 20px; 
+    padding: 8px 16px; 
+    width: 120px
+	
+}
+
+/* home page end */ 
+
+/* carousel home page */ 
+
+.carousel {
+    padding: 0; 
+}
+
+.carousel-inner {
+    margin: 0;
+}
+
+.carousel-item img {
+    margin-left: -15px; 
+    margin-right: -15px; 
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: transparent;
+}
+
+/* carousel home page end */
+
 /* meet the team start */
 
 .meetheteam {
