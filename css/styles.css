@@ -37,6 +37,10 @@ header {
 	background-color: #FFF9Eb;
 	}
 
+.footertext{
+	color: #41689f;
+	}
+
 /* Corporate navbar */
 
 #navbar-corporate a.active {
