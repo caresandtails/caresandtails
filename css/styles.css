@@ -133,6 +133,14 @@ header {
     height: 100%; 
 }
 
+/* Responsive styles */
+@media (max-width: 768px) {
+    .carousel-container {
+        width: 90%; /* Adjust the width for smaller screens */
+        height: 400px; /* Adjust the height for smaller screens */
+        margin-top: 10px; /* Adjust the top margin for smaller screens */
+    }
+}
 
 .carousel-control-prev,
 .carousel-control-next {
