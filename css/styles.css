@@ -211,7 +211,7 @@ header {
 
 /* colors end */
 
-/* our story text */
+/* our story text start */
 
 .ourstorytext {
 	text-align: center;
@@ -219,7 +219,7 @@ header {
 	color: #FFF9EB;
 	}
 
-/* our story text */
+/* our story text end */
 
 /* who we are start */
 
@@ -436,6 +436,16 @@ button:hover {
 .btn-primary.bluecolor:hover:active {
     border-color: #BF9ACA;
 	}
+
+.rounded-card {
+    border-radius: 25px;
+}
+
+.rounded-card img.img-fluid {
+    border-radius: 7px;
+}
+
+
 
 /* sitter card ends */
 
