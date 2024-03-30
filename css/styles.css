@@ -73,12 +73,12 @@ header {
 	font-size: 100px;
 	color: #FFF9eb;
 	text-align: center;
-}
+	}
 
 .homebody {
 	font-size: 20px;
 	color: #fff9eb;
-}
+	}
 
 
 .button-small {
@@ -87,13 +87,13 @@ header {
     padding: 8px 16px; 
 	text-decoration: none;
     width: 120px	
-}
+	}
 
 .button-small:hover {
     background-color: #BF9ACA; /* Change background color on hover */
     color: #FFF9EB; /* Change text color on hover */
 	
-}
+	}
 
 
 /* home page end */ 
@@ -102,21 +102,21 @@ header {
 
 .carousel {
     padding: 0; 
-}
+	}
 
 .carousel-inner {
     margin: 0;
-}
+	}
 
 .carousel-item img {
     margin-left: -15px; 
     margin-right: -15px; 
-}
+	}
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
     background-color: transparent;
-}
+	}
 
 /* carousel home page end */
 
@@ -421,7 +421,7 @@ button:hover {
 
 .sittersavailable {
 	font-size: 25px;
-}
+	}	
 
 /* booking end */
 
@@ -437,13 +437,17 @@ button:hover {
     border-color: #BF9ACA;
 	}
 
+.card-footer .btn-primary {
+    border-color: #41689f;
+	}
+
 .rounded-card {
     border-radius: 25px;
-}
+	}
 
 .rounded-card img.img-fluid {
     border-radius: 7px;
-}
+	}
 
 
 
