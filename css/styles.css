@@ -75,13 +75,13 @@ header {
 
 .caresandtailstext {
 	font-size: 100px;
-	color: #FFF9eb;
+	color: #FFF9EB;
 	text-align: center;
 	}
 
 .homebody {
 	font-size: 20px;
-	color: #fff9eb;
+	color: #FFF9EB;
 	}
 
 
@@ -102,67 +102,15 @@ header {
 
 /* home page end */ 
 
-/* carousel home page */ 
+/* background image home page */ 
 
-.carousel-container {
-    width: 80%; 
-    height: 600px; 
-    margin: 0 auto; 
-    margin-top: 20px; 
-    overflow: hidden; 
-    position: relative; 
-	border-radius: 15px; 
-}
-
-.carousel-inner {
-    width: 100%; 
-    height: 100%; 
-	border-radius: 15px; 
-}
-
-.carousel-item img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
-	border-radius: 15px; 
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
 }
 
 
-.carousel-container .carousel {
-    width: 100%; 
-    height: 100%; 
-}
-
-/* Responsive styles */
-@media (max-width: 768px) {
-    .carousel-container {
-        width: 90%; /* Adjust the width for smaller screens */
-        height: 400px; /* Adjust the height for smaller screens */
-        margin-top: 10px; /* Adjust the top margin for smaller screens */
-    }
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    top: 50%; 
-    transform: translateY(-50%);
-}
-
-.carousel-control-prev {
-    left: -30px; 
-}
-
-.carousel-control-next {
-    right: -30px; 
-}
-
-
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-    background-color: transparent;
-	}
-
-/* carousel home page end */
+/* background image home page end */
 
 /* meet the team start */
 
