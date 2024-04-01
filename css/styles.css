@@ -192,10 +192,6 @@ header {
 	background-color: #BFe6FF;
 	}
 
-.orangecolor {
-	background-color: #ff8c42;
-	}
-
 .bluefont {
 	color: #41689F;
 	}
@@ -449,6 +445,14 @@ form label {
 	}
 
 /* sitter card ends */
+
+/* corporate page */
+
+.generaltext {
+	color: #fff9eb;
+}
+
+/* corporate page end */
 
 
 
