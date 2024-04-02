@@ -114,23 +114,18 @@ header {
     margin-bottom: 30px;
 }
 
-.homepage .btn {
-    background-color: #FFF9eb;
-    color: #41689f;
-    padding: 15px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.2em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
+.button-small {
+    font-size: 24px; 
+	border-radius: 10px;
+    padding: 8px 16px; 
+	text-decoration: none;
+    width: 120px	
+	}
 
-.homepage .btn:hover {
-    background-color: #Bf9aca;
-}
-
+.button-small:hover {
+    background-color: #BF9ACA; 
+    color: #FFF9EB;
+	}
 
 
 /* home page end */ 
