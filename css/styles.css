@@ -102,7 +102,6 @@ header {
 .homepage .content {
     text-align: center;
     color: white;
-	margin-bottom: 20px;
 }
 
 .homepage h1 {
@@ -127,12 +126,6 @@ header {
     background-color: #BF9ACA; 
     color: #FFF9EB;
 	}
-
-@media (max-width: 768px) {
-    .homepage .content {
-        margin-bottom: 40px; /* Increase bottom margin for smaller screens */
-    }
-
 
 /* home page end */ 
 
@@ -476,7 +469,13 @@ form label {
 
 .generaltext {
 	color: #fff9eb;
-}
+	}
+
+.titlescorporate{
+	color:#fff9eb;
+	font-size: 45px;
+	}
+
 
 /* corporate page end */
 
