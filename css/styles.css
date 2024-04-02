@@ -84,32 +84,57 @@ header {
 	color: #FFF9EB;
 	}
 
-
-.button-small {
-    font-size: 24px; 
-	border-radius: 10px;
-    padding: 8px 16px; 
-	text-decoration: none;
-    width: 120px	
-	}
-
-.button-small:hover {
-    background-color: #BF9ACA; 
-    color: #FFF9EB; 
-	
-	}
-
-
-/* home page end */ 
-
-/* background image home page */ 
-
-.container-fluid {
+ .homepage .container-fluid {
     padding-right: 0;
     padding-left: 0;
 }
 
-/* background image home page end */
+.homepage {
+    background-image: url("../images/sleepdog.png"); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage .content {
+    text-align: center;
+    color: white;
+}
+
+.homepage h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.homepage p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.homepage .btn {
+    background-color: #FFF9eb;
+    color: #41689f;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.homepage .btn:hover {
+    background-color: #Bf9aca;
+}
+
+
+
+/* home page end */ 
+
 
 /* meet the team start */
 
