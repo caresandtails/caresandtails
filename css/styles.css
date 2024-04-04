@@ -90,7 +90,7 @@ header {
 }
 
 .homepage {
-    background-image: url("../images/sleepdog.png"); 
+    background-image: url("../images/sleepdog-copy.png"); 
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -145,19 +145,23 @@ header {
 	color: #41689F;
 	}	
 
+/*
 .aboutustext {
 	text-align: justify;
   	text-justify: inter-word;
 	color: #41689F;
 	font-size: 16px;
-	}
+	} */
 
-.team-container {
+/*.team-container {
         display: flex;
         justify-content: space-around;
         padding: 20px;
     }
+*/
     
+
+/*
 .team-member {
 		display: flex;
         flex-direction: column;
@@ -178,6 +182,8 @@ header {
         margin-bottom: 10px;
 		
     }
+
+*/
     
 .team-member h3 {
         margin: 0;
@@ -391,6 +397,24 @@ button:hover {
     background-color: #BF9ACA;
 	}	
 
+/* laura madde this */
+
+.button-sitters {
+    background-color: #41689F;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 5px;
+    width: 100%; 
+    margin-top: 10px; 
+	}
+
+.button-sitters:hover {
+    background-color: #BF9ACA;
+	}
+
+
 .card {
   width: 100%; 
 	}
@@ -400,7 +424,7 @@ button:hover {
   height: auto;
 	}
 
-.container {
+.container-custom {
   width: 100%;
   margin: 0 auto;
   padding: 0 10px;
