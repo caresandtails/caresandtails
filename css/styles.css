@@ -90,7 +90,7 @@ header {
 }
 
 .homepage {
-    background-image: url("../images/sleepdog-copy.png"); 
+    background-image: url("../images/sleepdog.png"); 
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -145,46 +145,6 @@ header {
 	color: #41689F;
 	}	
 
-/*
-.aboutustext {
-	text-align: justify;
-  	text-justify: inter-word;
-	color: #41689F;
-	font-size: 16px;
-	} */
-
-/*.team-container {
-        display: flex;
-        justify-content: space-around;
-        padding: 20px;
-    }
-*/
-    
-
-/*
-.team-member {
-		display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 30%;
-        background-color: #ffffff;
-        border-radius: 20px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        margin: 10px;
-    }
-   
-.team-member img {
-        border-radius: 50%;
-        width: 120px;
-        height: 120px;
-        object-fit: cover;
-        margin-bottom: 10px;
-		
-    }
-
-*/
-    
 .team-member h3 {
         margin: 0;
         font-size: 1.2em;
@@ -335,7 +295,7 @@ header {
 	color: #FFF9EB;
 	}
 
-/* Booking container styles */
+/* booking start */
 
 .booking-container {
     background-color: #FFF9EB;
@@ -378,27 +338,6 @@ input[type="date"] {
     margin-bottom: 10px; 
 	}
 
-.button-container {
-    width: 100%; 
-	}
-
-button {
-    background-color: #41689F;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    padding: 8px 16px;
-    border-radius: 5px;
-    width: 100%; 
-    margin-top: 10px; 
-	}
-
-button:hover {
-    background-color: #BF9ACA;
-	}	
-
-/* laura madde this */
-
 .button-sitters {
     background-color: #41689F;
     border: none;
@@ -408,12 +347,13 @@ button:hover {
     border-radius: 5px;
     width: 100%; 
     margin-top: 10px; 
+	text-align: center;
+	text-decoration: none;
 	}
 
 .button-sitters:hover {
     background-color: #BF9ACA;
 	}
-
 
 .card {
   width: 100%; 
