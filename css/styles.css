@@ -157,6 +157,15 @@ header {
 		text-align: justify;
     }
 
+.meettheteamrounded {
+    max-width: 180px; 
+    max-height: 180px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+	display: block; 
+    margin: 0 auto; 
+	}
+
 /* meet the team end */ 
 
 /* colors start */
@@ -180,6 +189,10 @@ header {
 .bluefont {
 	color: #41689F;
 	}
+
+.purplefont {
+	color: #BF9ACA;
+}
 
 /* colors end */
 
@@ -210,7 +223,7 @@ header {
 /* who we are end */
 
 
-/* values */
+/* values start */
 
 .valuesfont {
 	font-size: 60px;
@@ -225,7 +238,7 @@ header {
 /* values end */
 
 
-/* contact us section */
+/* contact us section start */
 
 .contact-section {
         width: 80%; 
@@ -277,7 +290,7 @@ header {
 	color: #41689F;
 	}
 
-/* contact us end of section */
+/* contact us section end */
 
 
 .comingsoon {
@@ -403,7 +416,7 @@ form label {
 
 /* booking end */
 
-/* sitters card */
+/* sitters card start */
 
 .btn-primary.bluecolor:hover {
     background-color: #BF9ACA; 
@@ -429,7 +442,7 @@ form label {
 
 /* sitter card ends */
 
-/* corporate page */
+/* corporate page start */
 
 .generaltext {
 	color: #fff9eb;
