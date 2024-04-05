@@ -468,7 +468,18 @@ form label {
 .smalltitlescorporate {
 	font-size: 30px;
 	color: #FFF9eb;
-}
+	}
+
+ .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
 
 /* corporate page end */
 
