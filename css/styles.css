@@ -87,7 +87,7 @@ header {
  .homepage .container-fluid {
     padding-right: 0;
     padding-left: 0;
-}
+	}
 
 .homepage {
     background-image: url("../images/sleepdog.png"); 
@@ -97,22 +97,22 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+	}
 
 .homepage .content {
     text-align: center;
     color: white;
-}
+	}
 
 .homepage h1 {
     font-size: 3em;
     margin-bottom: 20px;
-}
+	}
 
 .homepage p {
     font-size: 1.5em;
     margin-bottom: 30px;
-}
+	}
 
 .button-small {
     font-size: 24px; 
@@ -192,11 +192,11 @@ header {
 
 .purplefont {
 	color: #BF9ACA;
-}
+	}
 
 .beigefont {
 	color: #FFF9EB;
-}
+	}
 
 /* colors end */
 
@@ -474,12 +474,13 @@ form label {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-  }
+	}
+
   .grid-item img {
     width: 100%;
     height: auto;
     cursor: pointer;
-  }
+  	}
 
 /* corporate page end */
 
