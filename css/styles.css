@@ -194,6 +194,10 @@ header {
 	color: #BF9ACA;
 }
 
+.beigefont {
+	color: #FFF9EB;
+}
+
 /* colors end */
 
 /* our story text start */
@@ -460,6 +464,11 @@ form label {
 .sizeadjustment {
 	font-size: 23px;
 	}
+
+.smalltitlescorporate {
+	font-size: 30px;
+	color: #FFF9eb;
+}
 
 /* corporate page end */
 
